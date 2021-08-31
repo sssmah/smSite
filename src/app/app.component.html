@@ -1,22 +1,31 @@
-<div>
-  <h1>Welcome to the site</h1>
-
-  <header>
+<!-- Header -->
+<header>
     <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
-      
-      <div class="container">
-      <a class="navbar-brand px-3" href="#page-hero">
-        <i class="pe-2 fa fa-yelp" aria-hidden="true"></i>
-        Mahvellous
-      </a>
 
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#page-hero">Home</a>
-        <a class="nav-item nav-link" href="#page-multicolumn">Columns</a>
-        <a class="nav-item nav-link" href="#page-footer">Footer</a>
-        <a class="nav-item nav-link" href="#page-cards">Cards</a>
-    </div>
-  </div>
+        <!--Brand -->
+        <a class="text-warning navbar-brand px-3 fs-1 fw-bold" href="#">
+            <i class="text-danger pe-2 fa fa-fire" aria-hidden="true"></i>
+            Mahvellous</a>
+        <!-- Toggler -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#smTogglerNav"
+            aria-controls="smTogglerNav"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Menu -->
+
+        <section class="collapse navbar-collapse" id="smTogglerNav">
+            <div class="navbar-nav me-auto">
+                <a class="nav-item nav-link" href="#page-hero">Home</a>
+                <a class="nav-item nav-link" href="#page-multicolumn">Columns</a>
+                <a class="nav-item nav-link" href="#page-footer">Footer</a>
+                <a class="nav-item nav-link" href="#page-cards">Cards</a>
+            </div>
+        </section>
     </nav>
-  </header>
-</div>
+</header>
