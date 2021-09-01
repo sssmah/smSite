@@ -1,7 +1,7 @@
-.layout-hero{
-min-height: 80vh;    
-background: url(../assets/bg-hero.jpg);
-background-position: center bottom;
-background-repeat: no-repeat;
-background-size: cover;
+.layout-hero {
+  min-height: 80vh;
+  background: url(../assets/bg-hero.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;  
 }
