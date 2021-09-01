@@ -1,7 +1,20 @@
 .layout-hero {
-  min-height: 80vh;
+  min-height: 60vh;
   background: url(../assets/bg-hero.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;  
+}
+
+
+.site-header .page-section-title{
+  font-size: 3em;
+  font-family: var(--font-family-sans-serif);
+  font-weight: 500;
+}
+
+.site-header .page-section-text{
+  font-size: 1.2em;
+  font-family: var(--font-family-sans-serif);
+  font-weight: 200;
 }
